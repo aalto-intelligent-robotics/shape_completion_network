@@ -35,7 +35,6 @@ datasets/*
 !datasets/download_data.sh
 .results/*
 *pyc
-networks/*
 !netwoks/download_networks.sh
 *model
 *pth
