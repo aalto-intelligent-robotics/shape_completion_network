@@ -14,7 +14,7 @@ The code was developed for python2.7 and Ubuntu 18.04.
 
 [PyTorch](https://pytorch.org/)
 
-[Curvox](https://github.com/CRLab/curvox)
+[Curvox](https://github.com/jsll/curvox)
 
 [binvox-rw-py](https://github.com/dimatura/binvox-rw-py)
 
