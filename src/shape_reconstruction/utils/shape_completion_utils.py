@@ -285,19 +285,18 @@ def load_shape_completed_meshes(folder, load_samples=False):
 
 
 def load_ground_truth_and_shape_completed_meshes(
-    folder_path_to_ground_truth_meshes,
-    folder_path_to_completed_meshes,
-    load_samples=False):
+        folder_path_to_ground_truth_meshes,
+        folder_path_to_completed_meshes,
+        load_samples=False):
     file_path_to_all_ground_truth_meshes = load_groundtruth_files(
         folder_path_to_ground_truth_meshes)
-    print(file_path_to_all_ground_truth_meshes)
     file_path_to_all_shape_completed_meshes = load_shape_completed_meshes(
         folder_path_to_completed_meshes, load_samples)
     return file_path_to_all_ground_truth_meshes, file_path_to_all_shape_completed_meshes
 
 
 def get_ground_truth_mesh_corresponding_to_shape_completed_mesh(
-    ground_truth_meshes, shape_completed_mesh):
+        ground_truth_meshes, shape_completed_mesh):
     # Remove everything from the path execpt the file name, e.g. /tmp/foo/bar_poission_001_1_3_3_mean_shape.ply -> bar_poission_001_1_3_3_mean_shape.ply
     file_name = shape_completed_mesh.split("/")[-1]
     # bar_poission_001_1_3_3_mean_shape.ply-> bar_poission_001
