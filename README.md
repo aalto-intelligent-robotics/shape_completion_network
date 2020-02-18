@@ -79,7 +79,7 @@ If you use this training data then please also cite [the following work](#citati
 
 If you want to use one of the pre-trained models mentioned in the paper then either:
 
-- go to the following [link](https://drive.google.com/drive/u/1/folders/1V0GmIY74MSARnRVC0ppaS1LevrS9TEbr) and download the models,
+- go to the following [link](https://drive.google.com/open?id=1s4z00OFRqA1VK1PX9gEt0SCG6y4TK3CJ) and download the models,
 - or alternatively run the following bash script
 
 ```
